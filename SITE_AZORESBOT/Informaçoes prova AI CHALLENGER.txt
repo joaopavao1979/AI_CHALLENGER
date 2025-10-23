@@ -1,0 +1,45 @@
+
+# -------------------------------------
+# Ignorar ficheiros e pastas temporárias
+# -------------------------------------
+
+# Ficheiros compilados do Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Ambientes virtuais do Python
+.env/
+.venv/
+
+# Ficheiros de log
+*.log
+
+# Ficheiros CSV ou de dados temporários
+*.csv
+
+# -------------------------------------
+# Ignorar ficheiros de compilação do Arduino
+# -------------------------------------
+*.hex
+*.elf
+*.bin
+
+# -------------------------------------
+# Ignorar ficheiros e pastas específicas de ROS 2
+# -------------------------------------
+build/
+install/
+log/
+
+# -------------------------------------
+# Ignorar ficheiros de IDEs como VS Code, PyCharm
+# -------------------------------------
+.vscode/
+.idea/
+
+# -------------------------------------
+# Ficheiros do sistema (macOS, Windows)
+# -------------------------------------
+.DS_Store
+Thumbs.db
